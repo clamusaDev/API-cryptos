@@ -37,7 +37,7 @@ const [crypto, setCrypto]=useState([])
     const results = !search ? crypto : crypto.filter((value)=> value.name.toLowerCase().includes(search.toLowerCase()))
 
 
-// 5 - renderizamos la vista
+// 5 - renderizamos la vista de la tabla
 
   return (
 
