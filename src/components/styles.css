@@ -1,0 +1,24 @@
+
+/* Background title table bar */
+.table thead {
+    @apply bg-orange-300 px-4 py-8
+}
+
+/* text title table */
+.table th {
+    @apply px-6 py-4 text-base text-red-800 font-bold
+}
+
+/* Filas impares de la table */
+.table tbody tr:nth-child(2n+1) {
+    @apply bg-gray-500
+}
+
+/* .table tbody tr */
+.table td {
+    @apply px-14 text-base  text-white
+}
+
+/* .table td img{
+    @apply flexP
+} */
