@@ -40,8 +40,9 @@ const [crypto, setCrypto]=useState([])
 // 5 - renderizamos la vista de la tabla
 
   return (
-
+// fragment, luego buscar svg lupa para adjuntar en busquedad y probar
     <>
+    
         <input value={search} onChange={searcher} type='text' placeholder='Search Cryptos...' className='mt-10 mb-10 px-3 cursor-pointer text-bold text-slate-500 font-bolt focus:outline-none' />
 
     <div className='bg-slate-400'>
